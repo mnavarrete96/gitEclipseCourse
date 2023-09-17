@@ -4,6 +4,7 @@ public class Person {
 	private String name;
 	private String CI;
 	private Job job;
+	private Localization localization;
 	
 	public String getName() {
 		return name;
@@ -22,6 +23,12 @@ public class Person {
 	}
 	public void setJob(Job job) {
 		this.job = job;
+	}
+	public Localization getLocalization() {
+		return localization;
+	}
+	public void setLocalization(Localization localization) {
+		this.localization = localization;
 	}
 	
 	
