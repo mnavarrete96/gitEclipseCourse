@@ -17,6 +17,9 @@ public class Job {
 	public void setSalary(BigDecimal salary) {
 		this.salary = salary;
 	}
-	
+
+	public void toString(){
+		System.out.println("Name: " + name + ", Salary: " + salary);
+	}
 	
 }
