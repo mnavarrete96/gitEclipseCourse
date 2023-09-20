@@ -18,8 +18,8 @@ public class Job {
 		this.salary = salary;
 	}
 
-	public void toString(){
-		System.out.println("Name: " + name + ", Salary: " + salary);
+	public String toString(){
+		return "Name: " + name + ", Salary: " + salary;
 	}
 	
 }
