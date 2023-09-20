@@ -7,5 +7,6 @@ public class App {
 		Person person1 = new Person();
 		System.out.println(person1.getCI());
 		System.out.println("Initializing project");
+		System.out.println("Adding change from GitHub");
 	}
 }
