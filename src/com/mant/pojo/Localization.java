@@ -15,6 +15,10 @@ public class Localization {
 	public void setCountry(String country) {
 		this.country = country;
 	}
+	@Override
+	public String toString() {
+		return "Localization [direction=" + direction + ", country=" + country + "]";
+	}
 	
 	
 }
