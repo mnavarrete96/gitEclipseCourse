@@ -9,5 +9,6 @@ public class App {
 		System.out.println(person1.getCI());
 		System.out.println("Initializing project");
 		System.out.println("Adding another change from GitHub");
+		System.out.println(person1.getLocalization().toString());
 	}
 }

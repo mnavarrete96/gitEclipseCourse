@@ -5,6 +5,8 @@ import java.math.BigDecimal;
 public class Job {
 	private String name;
 	private BigDecimal salary;
+	private String message;
+	
 	public String getName() {
 		return name;
 	}
@@ -21,5 +23,13 @@ public class Job {
 	public String toString(){
 		return "Name: " + name + ", Salary: " + salary;
 	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	
+	
 	
 }
