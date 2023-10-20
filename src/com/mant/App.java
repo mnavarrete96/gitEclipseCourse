@@ -4,7 +4,7 @@ import com.mant.pojo.Person;
 
 public class App {
 	public static void main(String[] args) {
-		System.out.println("this can be a problem");
+		System.out.println("conflict");
 		System.out.println("conflict");
 		Person person1 = new Person();
 		System.out.println(person1.getCI());
