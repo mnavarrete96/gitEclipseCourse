@@ -13,4 +13,8 @@ public class Calculator {
 	public int division(int valueOne, int valueTwo) {
 		return valueOne / valueTwo;
 	}
+	
+	public int substract(int valueOne, int valueTwo) {
+		return valueOne / valueTwo;
+	}
 }
