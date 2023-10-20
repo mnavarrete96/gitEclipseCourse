@@ -29,4 +29,12 @@ public class Calculator {
 		
 		return valueTwo;
 	}
+	
+	public int maxValue(int valueOne, int valueTwo) {
+		if(valueOne > valueTwo) {
+			return valueOne;
+		}
+		
+		return valueTwo;
+	}
 }
