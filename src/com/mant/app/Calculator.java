@@ -21,4 +21,12 @@ public class Calculator {
 	public int remainder(int valueOne, int valueTwo) {
 		return valueOne % valueTwo;
 	}
+	
+	public int minValue(int valueOne, int valueTwo) {
+		if(valueOne < valueTwo) {
+			return valueOne;
+		}
+		
+		return valueTwo;
+	}
 }
