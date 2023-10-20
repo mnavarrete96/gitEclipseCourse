@@ -17,4 +17,8 @@ public class Calculator {
 	public int substract(int valueOne, int valueTwo) {
 		return valueOne / valueTwo;
 	}
+	
+	public int remainder(int valueOne, int valueTwo) {
+		return valueOne % valueTwo;
+	}
 }
