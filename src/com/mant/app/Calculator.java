@@ -13,4 +13,9 @@ public class Calculator {
 	public int division(int valueOne, int valueTwo) {
 		return valueOne / valueTwo;
 	}
+
+	public int remainder(int valueOne, int valueTwo) {
+		return valueOne % valueTwo;
+	}
+
 }
